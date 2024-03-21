@@ -1,0 +1,160 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.container{
+    margin: auto;
+   max-width: 960px;
+    overflow: auto;
+    padding: 0 20px;
+ }
+.text-primary{
+    color: yellow
+}
+
+.lead{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    background:yellow;
+    padding: 13px 20px;
+   
+    cursor: pointer;
+}
+
+.btn-light{
+    display: inline-block;
+    font-size: 40px;
+    color: yellow;
+    background: black;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background: green;
+    color: yellow;
+}
+
+.btn-light:hover{
+    background: yellow;
+    color: black ;
+}
+
+
+
+/* main styling */
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2em;
+    text-align: center;
+    padding: auto;
+  
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    padding-bottom: 20px;
+   color: whitesmoke;  
+}
+/* navbar */
+.logo img{
+    width: 60px; height: 55px;
+   
+    breadth: 100%;
+}
+
+#navbar{
+    background: black;
+    color: white;
+    overflow: auto;
+}
+#navbar .logo{
+    float: left;
+    padding-top: 0px;
+   padding-bottom: 5px ;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar a{
+    color: white;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.concept{
+    background: #444;
+    color: yellow;
+    
+}
+
+#showcase{
+    background: url('/images/newest.jpg') no-repeat
+    center center/cover;
+
+    
+    
+    
+    
+    
+}
+
+#showcase .showcase-content{
+    color: black;
+    text-align: center;
+    paddind-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 40px;
+    line-height: 1.2em;
+    padding-top: 120px;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 40px;
+    line line-height: 1.2em;
+    
+}
+
+
+
+
+
+#showcase{
+    
+    
+    margin: auto;
+   
+
+
+  
+}
+
+
+
